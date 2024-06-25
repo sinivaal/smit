@@ -14,4 +14,6 @@
 
 1. package.json - npm-i confi fail, millised käsud, kes tegi, kuna tegi etc.
 2. readme.md aplikatsiooni dokumentatsioon/setup guide, tihti githubis kasutatakse repo tutvustamiseks ja quick start guide-ina.
-Veelkord, küsi julgelt nõu ja abi
+
+
+Kui jäi minu oskuste tase segaseks küsi julgelt :)
