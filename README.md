@@ -1,19 +1,10 @@
-# testcafe-cucumber suitsutestid IMDB.com jaoks
+# smiti kurgikohvik
 
-Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid harjutamiseks.\
-\
-\
-Otsi siitsamalt github lehelt veel näiteid kasutades otsingusõna "testcafe examples" ja proovi neid käima panna \
-Otsi Testcafe dokumentatsiooni ja uuri kuidas Testcafe toimib\
-Kui hätta jääd, kindlasti küsi 
 
-### Kuidas jooksutada - käsurealt käivita järgmised käsud
-Sul peab arvutis olema node https://nodejs.org/en/download/ ja Git https://git-scm.com/downloads
-1. Typescripti laadimiseks  `npm i -g typescript`
-1. Klooni repo
-2. Lae alla sõltuvused `npm i`
-3. Käivita Chromes testimiseks: `npm run prio1` või `npm run prio2` 
-4. Käivita IE's testimiseks: `npm run test:ie`
+\
+
+1. Käivita Chromes testimiseks: `npm run smit`
+
 
 ### Ülesanded
 
@@ -22,5 +13,7 @@ Nüüd kui sa oled näinud kuidas testid jooksevad, koosta testlood meie karjä�
 Seejärel automatiseeri testlood muutes olemasolevates testides väärtusi: testsammud on /steps kaustas ja leheobjektid ehk HTML elemendid on /pages kaustas ja testlood ise saad kirjutada features/ kaustas olevasse faili \
 Eriti tubli oled kui oskad öelda mille jaoks on package.json ja readme.md failid \
 \
-\
+
+1. package.json - npm-i confi fail, millised käsud, kes tegi, kuna tegi etc.
+2. readme.md aplikatsiooni dokumentatsioon/setup guide, tihti githubis kasutatakse repo tutvustamiseks ja quick start guide-ina.
 Veelkord, küsi julgelt nõu ja abi
