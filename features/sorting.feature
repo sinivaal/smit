@@ -25,3 +25,7 @@ Feature: smoke tests for Imdb top 250 chart
         When I click on top rated menu item
         Then I should be redirected to chart mobile view
         
+   @smit
+   Scenario: Smit career page Esita button exists
+	Given I am on Smit career page
+	Then Esita button exists

@@ -6,6 +6,7 @@
   "scripts": {
     "prio1": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags @priority1 takeOnFails=true",
     "prio2": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags @priority2 takeOnFails=true",
+    "smit": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags @smit",
     "test-all": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags @wip takeOnFails=true",
     "test:ie": "gherkin-testcafe ie steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true",
     "test-headless": "gherkin-testcafe chrome:headless steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true",

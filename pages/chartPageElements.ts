@@ -11,10 +11,13 @@ class ChartPage {
   BingFirstResult: Selector;
   header: Selector;
   BingSearchBox: Selector;
+  GoogleSearchBox: Selector;
+  GoogleFirstResult: Selector;
   HeaderdropDownMobile: Selector;
   sideBarMenuMobile: Selector;
   sidebarMenuMobileItem: Selector;
   headerMobile: Selector;
+  EsitaButton: Selector;
   constructor() {
     this.HeaderdropDown = Selector("#imdbHeader-navDrawerOpen--desktop");
     this.HeaderdropDownMobile = Selector("#imdbHeader-navDrawerOpen");  
@@ -25,7 +28,10 @@ class ChartPage {
     this.sortByBingRatings = Selector('option').withText("Ranking");
     this.cellSelectorCount = Selector('tbody > tr');
     this.BingSearchBox = Selector('#sb_form_q');
+    this.GoogleSearchBox = Selector('#searchbox_input');
     this.BingFirstResult = Selector('#b_results').nth(0);
+    this.GoogleFirstResult = Selector('#react-layout');
+    this.EsitaButton = Selector('.button-primary').withText("Esita");
     this.header = Selector('.article').find('h1');
     this.headerMobile = Selector('.header').find('h1');
   }
